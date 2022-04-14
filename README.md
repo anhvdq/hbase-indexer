@@ -16,3 +16,8 @@ by hooking into HBase replication, see [the SEP readme](hbase-sep/README.md).
 
 A standalone utility to monitor HBase replication progress,
 see [the SEP-tools readme](hbase-sep/hbase-sep-tools/README.md).
+
+## Build command
+```shell
+mvn clean package -Pdist -DskipTests -Drat.numUnapprovedLicenses=600
+```
